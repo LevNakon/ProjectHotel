@@ -1,0 +1,149 @@
+#for-header{
+    background: #ffffff00 !important;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+#logo{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+}
+.text-b{
+    color: #293a6b !important;
+}
+
+.text-y{
+    color: #d39e00 !important;
+}
+
+.logo-font{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#list-header {
+	margin-left: 10% !important;
+	width: 60%;
+}
+
+#list-header li{
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 50%;
+	display: list-item;
+    text-align: -webkit-match-parent;
+}
+#list-header li a {
+    color: #293a6b !important;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.for_btn button{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.for_btn{
+    width: 20%;
+}
+#find-btn{
+	margin-top: 4%;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px){
+    #list-header li{
+        margin-left: 3% ;
+        margin-right: 3% ;
+        width: 50% ;
+        height: 80%;
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    #list-header li a {
+        color: #293a6b !important;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+    }
+
+    .for_btn button{
+        float: right ;
+        width: 40%;
+        padding-left: 4%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #list-header li{
+        margin-left: 1% ;
+        margin-right: 1%;
+        height: 60%;
+        width: 30% !important;
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    #list-header li a {
+        color: #293a6b !important;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 0.85em;
+    }
+    .for_btn button{
+        width: 30%;
+        float: right ;
+        padding-left: 4%;
+        font-size: 0.9em;
+    }
+    .for_btn{
+        width: 30%;
+    }
+}
+@media (min-width: 850px) and (max-width: 991px) {
+    #list-header li{
+        margin-left: 1% ;
+        margin-right: 1%;
+        height: 60%;
+        width: 30% !important;
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    #list-header li a {
+        color: #293a6b !important;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 0.7em;
+    }
+    .for_btn button{
+        width: 30%;
+        float: right ;
+        padding-left: 4%;
+        font-size: 0.8em;
+    }
+    .for_btn{
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 849px) {
+    #list-header li{
+        margin-left: 1% ;
+        margin-right: 1%;
+        height: 60%;
+        width: 30% !important;
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    #list-header li a {
+        color: #293a6b !important;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 0.55em;
+    }
+    .for_btn button{
+        width: 30%;
+        float: right ;
+        padding-left: 4%;
+        font-size: 0.7em;
+    }
+    .for_btn{
+        width: 30%;
+    }
+}
+
+
+
+
