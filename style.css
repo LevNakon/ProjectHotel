@@ -1,19 +1,26 @@
-#for-header{
+.for-header{
     background: #ffffff00 !important;
-    height: 80px;
     position: fixed;
     width: 100%;
+    background: rgba(0, 0, 0, 0.40) !important;
+    z-index: 9999999999 !important;
+
 }
-#logo{
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    margin-left: 10%;
-}
+
+
+    #logo{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        margin-left: 10%;
+
+    }
+
 .text-b{
     color: #293a6b !important;
 }
 
 .text-y{
     color: #d39e00 !important;
+
 }
 
 .logo-font{
@@ -43,6 +50,7 @@
 
 .for_btn{
     width: 20%;
+    
 }
 #find-btn{
 	margin-top: 4%;
@@ -143,7 +151,13 @@
         width: 30%;
     }
 }
-
+@media (max-width: 500px) {
+    .display-2{
+        font-size:3.5rem;
+        font-weight: 200;
+        line-height: 1.2;
+    }
+}
 
 
 
